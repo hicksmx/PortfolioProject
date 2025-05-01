@@ -404,3 +404,262 @@ body {
   height: 40px;
   margin-bottom: 0.5rem;
 }
+
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.process-item {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.process-item h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.outcomes-list {
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+}
+
+.outcomes-list li {
+  margin-bottom: 0.75rem;
+}
+
+.tools-section {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.doc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.doc-link::before {
+  content: '📄';
+}
+
+.project-section {
+  margin: 3rem 0;
+}
+
+.subsection {
+  margin: 2rem 0;
+}
+
+.quote-block {
+  background: #f5f5f5;
+  padding: 2rem;
+  border-left: 4px solid #333;
+  margin: 2rem 0;
+}
+
+.quote-block blockquote {
+  margin: 0;
+  font-style: italic;
+}
+
+.quote-block cite {
+  display: block;
+  margin-top: 1rem;
+}
+
+.vision-statement {
+  background: #333;
+  color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+
+.vision-statement blockquote {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.findings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.finding-item {
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.finding-item.success {
+  background: #e8f5e9;
+}
+
+.finding-item.improvements {
+  background: #fff3e0;
+}
+
+.tools-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tools-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.references {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+/* Case Study Specific Styles */
+.case-study {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.case-study h1 {
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+}
+
+.case-study h2 {
+  font-size: 2em;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.case-study h3 {
+  font-size: 1.5em;
+  margin-top: 2rem;
+}
+
+.content-block {
+  margin: 1.5rem 0;
+}
+
+.quote-block {
+  background: #f5f5f5;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-left: 4px solid #333;
+}
+
+.quote-block blockquote {
+  margin: 0;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+.quote-block cite {
+  display: block;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.vision-block {
+  background: #333;
+  color: white;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+}
+
+.vision-block blockquote {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.challenge-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.challenge-item {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.case-study ul, 
+.case-study ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.case-study li {
+  margin-bottom: 0.5rem;
+}
+
+.reference-list {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.reference-list a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.reference-list a:hover {
+  border-bottom-color: #333;
+}
+
+@media (max-width: 768px) {
+  .case-study {
+    padding: 1rem;
+  }
+  
+  .challenge-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .case-study h1 {
+    font-size: 2em;
+  }
+  
+  .case-study h2 {
+    font-size: 1.75em;
+  }
+}
+
+.highlight-box {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.achievement-box {
+  background: #fff3e0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.achievement-box h3 {
+  margin-top: 0;
+  color: #f57c00;
+}

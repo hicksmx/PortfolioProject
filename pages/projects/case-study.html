@@ -1,27 +1,279 @@
-<div class="project-container" id="project-case-study">
-    <div class="project-title">
-    <h1>UX Case Study</h1>
-    <span class="project-date">2024</span>
+<div class="project-container case-study" id="project-case-study">
+  <div class="project-header">
+    <h1>ModuMuse: A Case Study in Plugin-Based Audio Management</h1>
+    <span class="project-date">2025</span>
   </div>
 
-  <div class="project-description">
-    <p>A comprehensive UX case study examining user interaction patterns and implementing solutions for improved user experience.</p>
-    
-    <p>Project Process:</p>
-    <ul>
-      <li>User Research and Analysis</li>
-      <li>Problem Identification</li>
-      <li>Wireframe Development</li>
-      <li>User Testing</li>
-      <li>Implementation and Iteration</li>
-    </ul>
-  </div>
+  <section class="project-section intro">
+    <div class="content-block">
+      <p>I'm Max Hicks, a sophomore at the University of Cincinnati pursuing a double major in Cybersecurity and IT Software Programming. With several years of experience in web development, game creation, and software engineering, I've developed a diverse skill set across multiple platforms and technologies.</p>
+      <p>In my free time, I'm an avid gamer and technology enthusiast. I'm passionate about continuous learning and regularly challenge myself to acquire new skills and knowledge in the ever-evolving tech landscape.</p>
+    </div>
+  </section>
 
-  <div class="project-links">
-    <h2>Links</h2>
-    <ul>
-      <li><a href="#" target="_blank">View Full Case Study</a></li>
-      <li><a href="#" target="_blank">Project Documentation</a></li>
-    </ul>
-  </div>
+  <section class="project-section overview">
+    <h2>Project Overview</h2>
+    <div class="content-block">
+      <p>This case study documents my semester-long journey designing ModuMuse, a plugin-based audio library management application that empowers audio enthusiasts to fully customize their music experience. The project emerged from recognizing a gap in the market: while streaming services dominate music consumption, many enthusiasts still maintain local audio libraries but lack comprehensive tools to manage them effectively.</p>
+      <p>Throughout this project, I employed a user-centered design approach, moving through the full UX lifecycle from initial research through evaluation of high-fidelity prototypes. This case study showcases my process, methods, and the evolution of ModuMuse from concept to a refined design ready for development.</p>
+    </div>
+  </section>
+
+  <section class="project-section research">
+    <h2>Research: Understanding User Needs</h2>
+    <div class="challenge-grid">
+      <div class="challenge-item">
+        <h3>Fragmentation</h3>
+        <p>Users often need multiple tools to accomplish their audio management goals - one for playback, another for organization, and yet another for format conversion.</p>
+      </div>
+      <div class="challenge-item">
+        <h3>Customization Limitations</h3>
+        <p>Existing solutions rarely allow users to tailor the software to their unique workflows.</p>
+      </div>
+      <div class="challenge-item">
+        <h3>Metadata Management</h3>
+        <p>Maintaining consistent metadata across large collections is time-consuming and error-prone.</p>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <h3>Defining User Needs</h3>
+      <p>Based on my research, I formulated three core user need statements:</p>
+      <ol>
+        <li><strong>Power users and audio enthusiasts</strong> need a way to customize and extend their music management software because existing solutions often lack specific features they desire.</li>
+        <li><strong>Music collectors</strong> need an efficient way to maintain consistent metadata across their library because managing large collections manually is time-consuming and error-prone.</li>
+        <li><strong>Audio enthusiasts</strong> need flexible format conversion and quality management tools because they work with content from various sources and need to optimize for both quality and storage.</li>
+      </ol>
+    </div>
+
+    <div class="quote-block">
+      <blockquote>
+        "MusicBee has no competitor. Extremely versatile, customizable. You can achieve pretty much any kind of a music library layout you'd wish for"
+      </blockquote>
+      <cite>— u/audiophile_reddit, 2024</cite>
+    </div>
+
+    <div class="vision-block">
+      <h3>Design Vision</h3>
+      <blockquote>
+        I will design a plugin-based audio library management application to help audio enthusiasts and collectors achieve complete control over their music collections by allowing them to customize and extend every aspect of their library management workflow through an open ecosystem of interoperable tools and plugins.
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="project-section design">
+    <h2>Design: Exploring Possibilities</h2>
+    <div class="content-block">
+      <h3>Ideation and Concept Development</h3>
+      <p>With my vision established, I began exploring potential design directions. I focused on creating a flexible, modular interface that could adapt to different user needs while maintaining a cohesive experience.</p>
+      <p>I generated multiple design concepts that approached the core functionality from different perspectives:</p>
+      <ol>
+        <li><strong>Spotify/YouTube Music-inspired interface (Design A)</strong>: Featuring larger visual elements, a persistent bottom navigation bar with icon labels, and a grid-based song browsing view.</li>
+        <li><strong>VLC-style interface (Design B)</strong>: Utilizing a more compact layout with a hamburger menu, list-based song browsing, and higher information density.</li>
+      </ol>
+      <p>Both designs incorporated the core modularity concept but with different interaction patterns and visual styles.</p>
+    </div>
+
+    <div class="content-block">
+      <h3>Information Architecture</h3>
+      <p>I developed a comprehensive information architecture for ModuMuse that organized functionality into clear categories while supporting the plugin-based nature of the application. Key considerations included:</p>
+      <ul>
+        <li>Creating logical groupings for core functionality (Library, Playback, Plugins, Settings)</li>
+        <li>Designing a flexible navigation system that could accommodate user-added plugins</li>
+        <li>Establishing clear pathways for discovering, installing, and managing plugins</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>Design Evolution</h3>
+      <p>The initial design concepts evolved significantly based on peer feedback and further ideation. I explored different approaches to key challenges like:</p>
+      <ul>
+        <li><strong>Plugin Discovery</strong>: How to make the plugin ecosystem browsable and understandable</li>
+        <li><strong>Customization Controls</strong>: How to provide powerful customization without overwhelming users</li>
+        <li><strong>Metadata Management</strong>: How to streamline the process of organizing large music collections</li>
+      </ul>
+      <p>Throughout this process, I maintained a focus on balancing power and simplicity—creating an interface that would be approachable for casual users while providing the depth and flexibility demanded by power users.</p>
+    </div>
+  </section>
+
+  <section class="project-section prototyping">
+    <h2>Prototyping: Bringing Ideas to Life</h2>
+    <div class="content-block">
+      <h3>Low-Fidelity Explorations</h3>
+      <p>I began the prototyping phase with low-fidelity wireframes to explore navigation flows and screen layouts. These wireframes focused on establishing the core information architecture and interaction patterns without getting distracted by visual design details.</p>
+    </div>
+
+    <div class="content-block">
+      <h3>A/B Testing Prototypes</h3>
+      <p>As my design concepts matured, I created two distinct high-fidelity prototypes in Figma for A/B testing:</p>
+      <ul>
+        <li><strong>Prototype A</strong>: Featured a Spotify/YouTube Music-inspired design with larger visual elements, a persistent bottom navigation bar, and a grid-based song browsing view.</li>
+        <li><strong>Prototype B</strong>: Utilized a more compact VLC-style interface with a hamburger menu, list-based song browsing, and more content visible on a single screen.</li>
+      </ul>
+      <p>Both prototypes included:</p>
+      <ul>
+        <li>Home screens with music discovery options</li>
+        <li>Library browsing interfaces</li>
+        <li>Plugin management screens</li>
+        <li>Playback controls</li>
+        <li>Organization and tagging tools</li>
+      </ul>
+      <p>The A/B testing approach allowed me to evaluate fundamental navigation and layout differences before committing to a single direction.</p>
+    </div>
+
+    <div class="content-block">
+      <h3>Refined Prototype</h3>
+      <p>Based on the A/B testing results, I developed a refined prototype that combined the strengths of both previous versions. This prototype featured:</p>
+      <ul>
+        <li>Design B's space-efficient interface as the foundation</li>
+        <li>A collapsible navigation bar that could toggle between expanded and compact modes</li>
+        <li>Improved text contrast and visual hierarchy</li>
+        <li>Customizable view options for music browsing (grid or list view)</li>
+        <li>A redesigned plugin interface with clearer configuration options</li>
+      </ul>
+      <p>I implemented this prototype in Figma with high-fidelity visual design, realistic content examples including album artwork, and interactive elements to simulate key user flows.</p>
+      <p>In the final stages of prototyping, I also created a simple web-based prototype to demonstrate some of the core functionality to friends and gather additional feedback. This helped validate the design direction before moving to formal evaluation.</p>
+    </div>
+  </section>
+
+  <section class="project-section evaluation">
+    <h2>Evaluation: Testing with Users</h2>
+    <div class="content-block">
+      <h3>Think-Aloud Protocol</h3>
+      <p>For my evaluation strategy, I employed the think-aloud protocol to gather rich qualitative feedback on the user experience. This method allowed me to understand not just what users were doing, but why they were doing it and what they were thinking throughout the interaction.</p>
+      <p>I conducted two rounds of testing:</p>
+      <ol>
+        <li><strong>Initial A/B Testing</strong>: Two representative users tested both Design A and B prototypes in a counterbalanced order.</li>
+        <li><strong>Refined Prototype Testing</strong>: Three users tested the refined prototype, focusing on specific user flows.</li>
+      </ol>
+    </div>
+
+    <div class="content-block">
+      <h3>Evaluation Tasks</h3>
+      <p>For the refined prototype, I developed three core tasks to evaluate different aspects of the application:</p>
+      <ol>
+        <li><strong>Music Discovery and Playback</strong>: Find and explore music by a specific artist, navigate to an album, select a song, adjust playback settings, and add to a playlist.</li>
+        <li><strong>Plugin Management and Customization</strong>: Find a specific visualization plugin in the marketplace, view its details, install it, and configure its settings.</li>
+        <li><strong>Music Organization and Tagging</strong>: Create a new tag, find songs in a specific genre, apply the tag to multiple songs, and create a smart playlist based on the tag.</li>
+      </ol>
+    </div>
+
+    <div class="content-block">
+      <h3>Key Findings</h3>
+      <h4>Strengths:</h4>
+      <ul>
+        <li>Users appreciated the collapsible navigation bar that allowed them to choose between space efficiency and clarity</li>
+        <li>The customizable view options for music browsing were well-received</li>
+        <li>The visual feedback for actions throughout the interface enhanced the feeling of control</li>
+        <li>The core modularity concept resonated strongly with users</li>
+      </ul>
+      <h4>Areas for Improvement:</h4>
+      <ul>
+        <li>Plugin compatibility indicators were unclear, creating uncertainty during selection</li>
+        <li>The multi-step tagging process felt unnecessarily complex</li>
+        <li>Users experienced inconsistent behavior when switching between different view modes</li>
+        <li>Advanced audio settings were buried too deep in the menu structure</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <h3>Severity Rating System</h3>
+      <p>I used a 4-point severity scale to prioritize the identified issues:</p>
+      <ol>
+        <li><strong>Critical (4)</strong>: Prevents task completion; requires immediate resolution</li>
+        <li><strong>Serious (3)</strong>: Significantly hinders performance; high priority fix</li>
+        <li><strong>Moderate (2)</strong>: Creates confusion or inefficiency; should be addressed</li>
+        <li><strong>Minor (1)</strong>: Slight annoyance but doesn't impede task completion; low priority</li>
+      </ol>
+      <p>This helped me focus on the most important improvements for the next iteration.</p>
+    </div>
+  </section>
+
+  <section class="project-section refined-design">
+    <h2>Refined Design Direction</h2>
+    <div class="content-block">
+      <p>Based on the evaluation findings, I developed a set of recommendations for the final design:</p>
+      <ol>
+        <li>
+          <p><strong>Search & Discovery Improvements</strong></p>
+          <ul>
+            <li>Redesign search results to prioritize by relevance first, then offer category filtering</li>
+            <li>Implement contextual long-press menus for quick actions on songs and albums</li>
+            <li>Restructure playback settings to bring frequently used controls to the first level</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Plugin System Refinements</strong></p>
+          <ul>
+            <li>Create a more prominent access point to the plugin marketplace</li>
+            <li>Redesign plugin details page with clear compatibility indicators</li>
+            <li>Add visual progress indicators during installation</li>
+            <li>Group plugin settings into collapsible categories to reduce visual complexity</li>
+          </ul>
+        </li>
+        <li>
+          <p><strong>Organization System Optimization</strong></p>
+          <ul>
+            <li>Make tag creation more discoverable with a persistent "+" button</li>
+            <li>Redesign the multi-select interface with clearer affordances</li>
+            <li>Simplify smart playlist creation with visual rule building</li>
+            <li>Add consistent save behavior throughout organization interfaces</li>
+          </ul>
+        </li>
+      </ol>
+      <p>I also crafted refined user stories to guide future development:</p>
+      <ol>
+        <li>As a music listener, I want search results organized by relevance with quick filters so I can efficiently find exactly what I'm looking for.</li>
+        <li>As a power user, I want contextual menus available through gestures like long-press so I can quickly perform common actions.</li>
+        <li>As a plugin explorer, I want clear visual feedback during the installation process so I know exactly when a plugin is ready to use.</li>
+        <li>As an organization-focused user, I want intuitive batch operations for tagging so I can efficiently organize large music collections.</li>
+        <li>As a playlist creator, I want a visual rule builder for smart playlists so I can easily create complex content filters.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="project-section conclusion">
+    <h2>Conclusion and Next Steps</h2>
+    <div class="content-block">
+      <p>The ModuMuse project demonstrates how a user-centered design approach can transform a complex problem space into an intuitive, powerful solution. Throughout this semester-long journey, I:</p>
+      <ul>
+        <li><strong>Researched</strong> user needs in the audio management space, identifying key pain points and opportunities</li>
+        <li><strong>Designed</strong> multiple concepts that approached the problem from different angles</li>
+        <li><strong>Prototyped</strong> increasingly refined interactions that balanced power and simplicity</li>
+        <li><strong>Evaluated</strong> these prototypes with representative users to validate and improve my designs</li>
+      </ul>
+      <p>While the current prototype is not yet ready for development, it provides a solid foundation for creating a truly user-centered music management application. The next steps would include:</p>
+      <ol>
+        <li>Implementing the recommended refinements based on usability testing</li>
+        <li>Creating a functional prototype to test real data interactions</li>
+        <li>Developing technical specifications for the plugin architecture</li>
+        <li>Exploring monetization strategies for the plugin ecosystem</li>
+      </ol>
+      <p>This project has deepened my understanding of user-centered design principles and strengthened my UX research and design skills. I look forward to applying these learnings to future projects and continuing to develop solutions that genuinely meet user needs.</p>
+    </div>
+  </section>
+
+  <section class="project-section tools">
+    <h2>Tools Used</h2>
+    <div class="content-block">
+      <ul>
+        <li>Figma for wireframing and high-fidelity prototyping</li>
+        <li>Web development tools for creating simple interactive prototypes</li>
+        <li>Think-aloud methodology for usability testing</li>
+        <li>A/B testing for comparing design alternatives</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="project-section references">
+    <h2>References</h2>
+    <div class="reference-list">
+      <ul>
+        <li>Chacos, B. (2025, January). <a href="https://www.techradar.com/news/the-best-free-music-player">The best free music players 2025: organize and enjoy your digital music collection</a>. TechRadar.</li>
+        <li>r/audiophile. (2024, February). <a href="https://www.reddit.com/r/audiophile/comments/10x1oib/whats_the_best_media_player_for_playing_music/">What's the best media player for playing music? (Quality, Discography, Pretty much everything)</a>. Reddit.</li>
+        <li>Turner, B. (2024, December). <a href="https://www.techradar.com/reviews/musicbee">MusicBee review: The perfect player for real music lovers</a>. TechRadar.</li>
+        <li>Nielsen Norman Group. (2023). <a href="https://www.nngroup.com/articles/usability-test-how-to-guide/">How to Conduct a Usability Test</a></li>
+      </ul>
+    </div>
+  </section>
 </div>
