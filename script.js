@@ -36,6 +36,8 @@ function initCarousel(container) {
 document.addEventListener('htmx:afterSwap', function() {
   const projectContainer = document.querySelector('.project-container');
   if(projectContainer) {
-    initCarousel(projectContainer);
+    setTimeout(() => {
+      initCarousel(projectContainer);
+    }, 100);
   }
 });
